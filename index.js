@@ -74,7 +74,7 @@ class PublishPlugin {
     apply(compiler) {
 		compiler.hooks.emit.tapAsync(pluginName, (compilation, callback) => {
 			let files = u.filter(u.keys(compilation.assets), this.options.exclude);
-	
+			// des
 			if (files.length === 0) {
 				return callback();
 			}
