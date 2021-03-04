@@ -7,11 +7,11 @@ ak: xxx
 sk: xxx
 
 account1:
-	ak: xxx
-	sk: xxx
+  ak: xxx
+  sk: xxx
 account2:
-	ak: xxx
-	sk: xxx
+  ak: xxx
+  sk: xxx
 
 
 ```
